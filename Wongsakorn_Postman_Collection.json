@@ -1,0 +1,86 @@
+{
+  "info": {
+    "_postman_id": "73ae7eed-00e7-48b7-b7d3-0fd4cf769035",
+    "name": "New Collection",
+    "schema": "https://schema.getpostman.com/json/collection/v2.1.0/collection.json",
+    "_exporter_id": "53165937",
+    "_collection_link": "https://go.postman.co/collection/53165937-73ae7eed-00e7-48b7-b7d3-0fd4cf769035?source=collection_link"
+  },
+  "item": [
+    {
+      "name": "GET Get Pet By ID",
+      "request": {
+        "method": "GET",
+        "header": [],
+        "url": {
+          "raw": "https://petstore.swagger.io/v2/pet/10",
+          "protocol": "https",
+          "host": [
+            "petstore",
+            "swagger",
+            "io"
+          ],
+          "path": [
+            "v2",
+            "pet",
+            "10"
+          ]
+        }
+      },
+      "response": []
+    },
+    {
+      "name": "GET Get Order By ID",
+      "request": {
+        "method": "GET",
+        "header": [],
+        "url": {
+          "raw": "https://petstore.swagger.io/v2/store/order/10",
+          "protocol": "https",
+          "host": [
+            "petstore",
+            "swagger",
+            "io"
+          ],
+          "path": [
+            "v2",
+            "store",
+            "order",
+            "10"
+          ]
+        }
+      },
+      "response": []
+    },
+    {
+      "name": "POST Create User",
+      "request": {
+        "method": "POST",
+        "header": [],
+        "body": {
+          "mode": "raw",
+          "raw": "{\r\n\"id\": 1,\r\n\"username\": \"testuser\",\r\n\"firstName\": \"testfirstname\",\r\n\"lastName\": \"testlastname\",\r\n\"email\": \"test@test.com\",\r\n\"password\": \"12345678\",\r\n\"phone\": \"0812345678\",\r\n\"userStatus\": 1\r\n}",
+          "options": {
+            "raw": {
+              "language": "json"
+            }
+          }
+        },
+        "url": {
+          "raw": "https://petstore.swagger.io/v2/user",
+          "protocol": "https",
+          "host": [
+            "petstore",
+            "swagger",
+            "io"
+          ],
+          "path": [
+            "v2",
+            "user"
+          ]
+        }
+      },
+      "response": []
+    }
+  ]
+}
